@@ -28,12 +28,7 @@ So this is where Image Comparator comes in!
 
 # Demo
 
-<video src="https://raw.gith
-<<<<<<< HEAD
 <video src="https://raw.githubusercontent.com/madhurpv/image-comparer/refs/heads/master/readme_files/DemoVideo2.mp4"></video>
-=======
-<video src="https://raw.githubusercontent.com/madhurpv/image-comparer/refs/heads/master/readme_files/DemoVideo.mp4"></video>
->>>>>>> ec29f7d84a438ff130f596e2dd3e8263b4f1bef0
 
 We notice that the second image (08042025_DSC_7393_Crop.JPG) is slightly sharper - a detail very hard to notice without Image Comparator!
 
