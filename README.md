@@ -1,76 +1,47 @@
-# Getting Started with Create React App
+# Image Comparer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Compare images in a giffy, especially useful for pixel-peepers like me!
 
-## Available Scripts
+## Example
 
-In the project directory, you can run:
+We want to compare the following 2 images - which one is sharper? Better focused?
 
-### `npm start`
+<img src="readme_files/08042025_DSC_7392.JPG" alt="Image 1" width="400"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="readme_files/08042025_DSC_7393.JPG" alt="Image 2" width="400"/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Very difficult, isn't it?
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Let us see both these images at 200% crop - 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="readme_files/08042025_DSC_7392_Crop.JPG" alt="Image 1 200% crop" width="800"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="readme_files/08042025_DSC_7393_Crop.JPG" alt="Image 2 200% crop" width="800"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Almost the same! So difficult to compare!
 
-### `npm run eject`
+But what if you want to select only one image? Compare both of them to their finest accuracy - how each pixel stands out?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+So this is where Image Comparator comes in!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<video src="readme_files/DemoVideo.mp4" width="500"></video>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We notice that the second image (08042025_DSC_7393_Crop.JPG) is slightly sharper - a detail very hard to notice without Image Comparator!
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Toggle images quickly to compare
+2. Zoom and Pan both the images together using the mouse
+3. Pan and zoom each image individually for correcting any offset in images
+4. Special Blended mode for better image alignment and comparison!
 
 
 
+# Live Page
 
-
-See page at - [https://madhurpv.github.io/image-comparer/](https://madhurpv.github.io/image-comparer/)
+You can use Image Comparator at - [https://madhurpv.github.io/image-comparer/](https://madhurpv.github.io/image-comparer/)
