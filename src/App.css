@@ -4,109 +4,49 @@
   height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #ffffff;
+  color: #333333;
+  transition: all 0.3s ease;
 }
 
-.drop-zone {
-  flex: 1;
-  border: 2px dashed #ccc;
-  border-radius: 5px;
+.App.dark {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-  background-color: #f8f8f8;
+  transition: all 0.3s ease;
 }
 
-.drop-instructions {
-  text-align: center;
-  color: #666;
-  padding: 20px;
+.dark-mode-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.drop-instructions p {
-  margin: 0;
-  font-size: 1.2em;
-}
-
-.image-container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-  touch-action: none;
-}
-
-.image-container img {
-  position: absolute;
-  transform-origin: 0 0;
-  max-width: none;
-  will-change: transform;
-  top: 0;
-  left: 0;
-}
-
-.controls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-  padding: 10px;
-  background: #f5f5f5;
-  border-radius: 8px;
-  margin-top: 10px;
-}
-
-button {
-  padding: 8px 12px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.2s;
-  background-color: #4CAF50;
-  color: white;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-button:disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-}
-
-.image-info, .zoom-info {
-  padding: 8px 12px;
-  background-color: #e0e0e0;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-.lock-status {
-  font-style: italic;
-  color: #666;
-  padding: 8px 12px;
-}
-
-button[style*="background: #f44336"]:hover {
-  background-color: #d32f2f !important;
-}
-
-button[style*="background: #2196F3"]:hover {
-  background-color: #0b7dda !important;
-}
-
-@media (max-width: 768px) {
-  .controls {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  button {
-    width: 100%;
-    margin-bottom: 5px;
-  }
+.App.dark .dark-mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
