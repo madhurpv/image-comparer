@@ -44,4 +44,4 @@ We notice that the second image (08042025_DSC_7393_Crop.JPG) is slightly sharper
 
 # Live Page
 
-You can use Image Comparator at - [https://madhurpv.github.io/image-comparer/](https://madhurpv.github.io/image-comparer/)
+You can use Image Comparator at - [https://madhurpv.github.io/image-comparer/](https://madhurpv.github.io/image-comparer/)v.github.io/image-comparer/)
